@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ministerio del Futuro: una landing deliberadamente burocrática de Forecast League, hecha solamente con HTML.">
+  <title>Ministerio del Futuro — Forecast League, edición badUI</title>
+</head>
+<body>
+  <header id="inicio">
+    <p><small>FORECAST LEAGUE / DIRECCIÓN NACIONAL DE COSAS QUE TODAVÍA NO PASARON</small></p>
+    <hr>
+    <p>🏛️ <b>MINISTERIO DEL FUTURO</b> <sup>organismo completamente ficticio</sup></p>
+    <h1>El futuro es incierto.<br>El trámite, obligatorio.</h1>
+    <p>Pronosticá eventos. Competí con amigos. Presentá la misma documentación tres veces.</p>
+    <p><mark>EDICIÓN badUI</mark> Una landing jugable de Forecast League. La mala experiencia es el producto.</p>
+    <p><a href="#mesa">Iniciar solicitud de intención de comenzar →</a></p>
+    <nav aria-label="Ventanillas">
+      <a href="#beneficios">¿Por qué sufrir acá?</a> ·
+      <a href="#turnos">Sacar turno</a> ·
+      <a href="#ayuda">No entiendo nada</a> ·
+      <a href="https://github.com/Agusgal/Forecast-League">Ver el proyecto real ↗</a>
+    </nav>
+  </header>
+  <main>
+    <hr>
+    <section id="turnos" aria-labelledby="turnos-titulo">
+      <h2 id="turnos-titulo">Su futuro será atendido.</h2>
+      <fieldset>
+        <legend>Monitor de turnos — simulación inmóvil</legend>
+        <p>ATENDIENDO AL: <strong>004</strong> &nbsp; / &nbsp; SU NÚMERO: <strong>004 bis</strong></p>
+        <label for="cola">Digitalización del trámite: 1 %</label>
+        <progress id="cola" value="1" max="100">1 %</progress>
+        <p><small>La barra no avanza. Es un indicador de actitud institucional.</small></p>
+        <details>
+          <summary>Consultar demora estimada</summary>
+          <p>Entre ahora y después. Nivel de confianza: administrativo.</p>
+          <p><a href="#mesa">Pasar igual: la ventanilla está abierta</a></p>
+        </details>
+      </fieldset>
+    </section>
+    <section id="beneficios" aria-labelledby="beneficios-titulo">
+      <h2 id="beneficios-titulo">La incertidumbre, ahora con más pasos.</h2>
+      <table>
+        <caption>Plan único: Ciudadano Eventual. $0. Sin apuestas.</caption>
+        <thead><tr><th scope="col">Usted quería</th><th scope="col">Nosotros ofrecemos</th></tr></thead>
+        <tbody>
+          <tr><td>Elegir 73 %</td><td>Un ábaco de casilleros y una suma a mano.</td></tr>
+          <tr><td>Ver el consenso</td><td>Un archivo dentro de otro archivo dentro de otro archivo.</td></tr>
+          <tr><td>Competir con amigos</td><td>Descubrir quién abandona el formulario último.</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <hr>
+    <section id="mesa" aria-labelledby="mesa-titulo">
+      <p><small>EXPEDIENTE FL–073 / MESA DE ENTRADAS / ORIGINAL ÚNICO POR TRIPLICADO</small></p>
+      <h2 id="mesa-titulo">¿Vas a terminar este trámite?</h2>
+      <p>Pronosticá la probabilidad de llegar al comprobante. Este es el evento. Vos sos la fuente.</p>
+      <p><strong>Criterio:</strong> en este juguete, llegar a <code>comprobante.html</code> cuenta como Sí. Abandonar queda sin resolver. No hay puntajes ni registro real.</p>
+      <form action="comprobante.html" method="get" autocomplete="off">
+        <fieldset>
+          <legend>01 / Solicitud de autorización para tener una opinión</legend>
+          <p><label for="alias">Seudónimo de ciudadano eventual (inventado)</label><br>
+          <input id="alias" name="alias" required maxlength="24" placeholder="Ej.: Nostradamus de Lanús" size="25"></p>
+          <p><label for="motivo">Motivo por el cual pretende conocer el futuro</label><br>
+          <select id="motivo" name="motivo" required>
+            <option value="">Seleccione una justificación insuficiente</option>
+            <option value="mate">Saber si pongo la pava</option>
+            <option value="discusion">Ganar una discusión que todavía no empezó</option>
+            <option value="paraguas">Salir sin paraguas con fundamento científico</option>
+            <option value="planilla">Completar este campo obligatorio</option>
+          </select></p>
+          <p><label><input type="checkbox" required name="existencia" value="provisoria"> Declaro estar presente en al menos una de mis posibles líneas temporales.</label></p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>02 / Ensamble manual de probabilidad</legend>
+          <p>El deslizador está en reparación. Arme su porcentaje sumando casilleros.</p>
+          <p><label><input type="checkbox" name="pieza" value="64"> +64</label>
+          <label><input type="checkbox" name="pieza" value="1"> +1</label>
+          <label><input type="checkbox" name="pieza" value="16"> +16</label>
+          <label><input type="checkbox" name="pieza" value="4"> +4</label>
+          <label><input type="checkbox" name="pieza" value="32"> +32</label>
+          <label><input type="checkbox" name="pieza" value="2"> +2</label>
+          <label><input type="checkbox" name="pieza" value="8"> +8</label></p>
+          <p><small>Ejemplo: 73 = 64 + 8 + 1. El orden de los casilleros se decidió en una reunión.</small></p>
+          <p><label for="probabilidad">Transcriba su suma, del 1 al 99 (sin el símbolo %)</label><br>
+          <input id="probabilidad" name="probabilidad" type="text" inputmode="numeric" pattern="[1-9][0-9]?" required size="3" maxlength="2" title="Un número entero entre 1 y 99, sin %."> %</p>
+          <p><small>La suma es a mano. El navegador verifica el rango; nadie coteja los casilleros. Confianza institucional.</small></p>
+          <details>
+            <summary>No sé sumar, pero quiero opinar</summary>
+            <p>50 % = 32 + 16 + 2. Significa considerar ambos resultados igual de probables, no estar medio inscripto.</p>
+          </details>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>03 / Ventanilla de consenso anticipado</legend>
+          <p>¿Querés saber qué opinaron los demás antes de decidir? Archivamos la tentación.</p>
+          <details>
+            <summary>Abrir archivo de consenso</summary>
+            <details>
+              <summary>Abrir carpeta «consenso_final»</summary>
+              <details>
+                <summary>Abrir carpeta «consenso_final_FINAL»</summary>
+                <details>
+                  <summary>Abrir carpeta «este_sí»</summary>
+                  <p><strong>Carpeta vacía.</strong> Estabas buscando seguridad emocional en un directorio.</p>
+                  <p>En Forecast League real, el consenso se revela después de pronosticar. Acá no hay comunidad ni datos para mostrar.</p>
+                </details>
+              </details>
+            </details>
+          </details>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>04 / Copia manuscrita del futuro</legend>
+          <p>Copie exactamente la frase. Respetar mayúsculas. La incertidumbre no exime de ortografía.</p>
+          <blockquote><strong>EL FUTURO NO ACEPTA RECLAMOS</strong></blockquote>
+          <label for="sello">Sello verbal obligatorio</label><br>
+          <input id="sello" name="sello" required pattern="EL FUTURO NO ACEPTA RECLAMOS" size="30" title="Copiá exactamente: EL FUTURO NO ACEPTA RECLAMOS">
+          <p><label><input type="checkbox" name="copia1" required value="si"> Leí mi pronóstico.</label><br>
+          <label><input type="checkbox" name="copia2" required value="si"> Leí que leí mi pronóstico.</label><br>
+          <label><input type="checkbox" name="copia3" required value="si"> Leí que leí que leí mi pronóstico.</label></p>
+          <p><small>Declaraciones de juguete, sin efecto legal.</small></p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>05 / Área de acciones con jerarquía cuestionable</legend>
+          <p><button type="reset">RECONSIDERAR ABSOLUTAMENTE TODO (borra el formulario)</button></p>
+          <p><button type="button" disabled>Enviar directamente — servicio no disponible</button></p>
+          <details>
+            <summary>Otras gestiones → finalizar → sí, finalizar de verdad</summary>
+            <p>Felicitaciones por encontrar el botón que debería haber estado a simple vista.</p>
+            <p><button type="submit">Solicitar comprobante de haber intentado pronosticar →</button></p>
+          </details>
+        </fieldset>
+        <p><small>Usá datos inventados: al continuar, las respuestas viajan en la URL de esta página. No hay cuenta, base de datos ni envío a Forecast League.</small></p>
+      </form>
+    </section>
+    <hr>
+    <section id="ayuda" aria-labelledby="ayuda-titulo">
+      <h2 id="ayuda-titulo">Preguntas frecuentemente postergadas</h2>
+      <details><summary>¿Esto es Forecast League?</summary><p>Es su universo burocrático alternativo. El proyecto real permite pronosticar eventos, aprender de la precisión y competir con amigos sin apostar dinero.</p><p><a href="https://github.com/Agusgal/Forecast-League">Conocer Forecast League</a></p></details>
+      <details><summary>¿Por qué no hay colores?</summary><p>El ocre #CC7722 está aprobado. Su implementación fue derivada a una oficina que no admite CSS.</p></details>
+      <details><summary>¿Puedo omitir todo el trámite?</summary><p>Sí. Esto es HTML, no una frontera de seguridad.</p><p><a href="comprobante.html">Ir al comprobante sin merecerlo →</a></p></details>
+      <details><summary>¿Qué pasa si me equivoco?</summary><p>En el producto real, el Brier score mide la precisión. En este ministerio, abrimos otra carpeta.</p></details>
+      <details><summary>Necesito ayuda con la ayuda</summary><p><a href="#ayuda">Volver al departamento de ayuda con la ayuda</a></p></details>
+    </section>
+  </main>
+  <footer>
+    <hr>
+    <p><b>FORECAST LEAGUE · LABORATORIO DE MALAS IDEAS</b></p>
+    <p>HTML puro. Cero CSS. Cero JavaScript. Demasiadas ventanillas.</p>
+    <p><small>Parodia interactiva. Sin vínculo con organismos públicos. El mal diseño es intencional; los controles conservan sus etiquetas y navegación por teclado.</small></p>
+    <p><a href="#inicio">Volver al inicio (el futuro sigue esperando)</a></p>
+  </footer>
+</body>
+</html>
