@@ -2,13 +2,13 @@
 
 **El futuro es incierto. El trámite, obligatorio.**
 
-Una landing jugable, deliberadamente mala, para el universo de [Forecast League](https://github.com/Agusgal/Forecast-League). Vive en un repositorio independiente: no reemplaza la aplicación ni modifica sus datos.
+Una landing jugable, deliberadamente mala, para el proyecto de [Forecast League](https://github.com/Agusgal/Forecast-League). Vive en un repositorio independiente: no reemplaza la aplicación ni modifica sus datos.
 
 ## La idea
 
-En lugar de elegir una probabilidad y enviarla, tenés que solicitar permiso para opinar, armar el porcentaje sumando casilleros, explorar carpetas anidadas, copiar una frase y encontrar el botón de envío escondido. La pregunta es autorreferencial: **¿vas a terminar este trámite?** Llegar al comprobante resuelve el pequeño juego.
+En lugar de elegir una probabilidad y enviarla y de crear tu usuario normalmente, tenés que solicitar permiso para opinar, armar el porcentaje sumando casilleros, explorar carpetas anidadas, copiar una frase y encontrar el botón de envío escondido. La pregunta es autorreferencial: **¿vas a terminar este trámite?** Llegar al comprobante resuelve el pequeño juego.
 
-La estética es la hoja de un organismo ficticio, con el estilo predeterminado del navegador. El humor está en la interacción y en los textos, no en animaciones ni efectos.
+La estética es la hoja de un organismo gubernamental ficticio, con el estilo predeterminado del navegador. El humor está en la interacción y en los textos, no en animaciones ni efectos.
 
 ## Abrir
 
@@ -54,9 +54,9 @@ La frustración es intencional, pero no usamos destellos, capturas de teclado ni
 
 ## Cómo se ideó
 
-Pedido del usuario: experimentar con una landing badUI de Forecast League, muy creativa, usando solamente HTML, sin CSS ni JavaScript, y dejarla en otro repo.
+Pedido del usuario: experimentar con una landing badUI de Forecast League, muy creativa, usando solamente HTML, sin CSS ni JavaScript. Se debe recrear la experiencia de llenar trámites para una agencia gubernamental ficticia. Por ejemplo: llenar un sinfín de campos inútiles, interacciones lentas con la UI y comboboxes que no hacen nada. La estética debe ser de una página vieja del gobierno. 
 
-La restricción guió el concepto: aprovechar las interacciones que ya ofrece HTML y convertir la ausencia de automatización en burocracia. El referente es un trámite interminable, no un sitio roto por accidente. Desarrollo asistido por Codex.
+
 
 ## Comprobar el recorrido
 
@@ -66,5 +66,3 @@ La restricción guió el concepto: aprovechar las interacciones que ya ofrece HT
 4. Marcar las tres copias y desplegar «Otras gestiones» para enviar.
 5. Ver el comprobante, abrir la explicación de Brier y volver al inicio.
 6. Probar que un porcentaje fuera de 1–99 o un sello incorrecto impide el envío.
-
-También se puede abrir directamente el comprobante; este juguete no implementa una frontera de seguridad.
