@@ -6,7 +6,7 @@ Una landing jugable, deliberadamente mala, para el proyecto de [Forecast League]
 
 ## La idea
 
-En lugar de elegir una probabilidad y enviarla y de crear tu usuario normalmente, tenés que solicitar permiso para opinar, armar el porcentaje sumando casilleros, explorar carpetas anidadas, copiar una frase y encontrar el botón de envío escondido. La pregunta es autorreferencial: **¿vas a terminar este trámite?** Llegar al comprobante resuelve el pequeño juego.
+En lugar de elegir una probabilidad y enviarla y de crear tu usuario normalmente, tenés que solicitar permiso para opinar, armar el porcentaje sumando casilleros, explorar carpetas anidadas, copiar una frase y encontrar el botón de envío escondido. Esta página imita una version cruda del trabajo práctico final pero con un UI malísimo y lleno de widgets y elementos innecesarios e inútiles. La pregunta es autorreferencial: **¿vas a terminar este trámite?** Llegar al comprobante resuelve el pequeño juego.
 
 La estética es la hoja de un organismo gubernamental ficticio, con el estilo predeterminado del navegador. El humor está en la interacción y en los textos, no en animaciones ni efectos.
 
